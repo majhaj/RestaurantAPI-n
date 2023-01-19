@@ -1,0 +1,10 @@
+﻿namespace RestaurantAPI_n.Exceptions
+{
+    public class NotFoundException : Exception
+    {
+        public NotFoundException(string message): base(message) 
+        {
+
+        }
+    }
+}
